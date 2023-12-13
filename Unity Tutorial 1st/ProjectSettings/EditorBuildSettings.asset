@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UGUI/Scenes/Main Menu.unity
+    guid: 4fd4cfa1b29528440aadc9c540e00f1e
+  - enabled: 1
+    path: Assets/Terrain/Scenes/Terrain.unity
+    guid: 945cf3204d6af084a93484c9bd74e2a1
   m_configObjects: {}
