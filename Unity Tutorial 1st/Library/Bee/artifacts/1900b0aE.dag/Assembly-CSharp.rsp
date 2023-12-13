@@ -358,7 +358,9 @@
 "Assets/Animator/Scripts/DataManager.cs"
 "Assets/Animator/Scripts/LifeCycle.cs"
 "Assets/Animator/Scripts/Player.cs"
+"Assets/Move/Scripts/PlayerController.cs"
 "Assets/UGUI/Scripts/MainMenu.cs"
+"Assets/UGUI/Scripts/TextManager.cs"
 -langversion:9.0
 
 /deterministic
