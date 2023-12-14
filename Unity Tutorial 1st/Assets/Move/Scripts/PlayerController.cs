@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public Vector3 direction;
+    public Camera playerCamera;
 
     private void Awake()
     {
@@ -23,5 +25,27 @@ public class PlayerController : MonoBehaviour
 
         // Time.deltaTime : 이전 프레임이 완료되는 데까지 걸린 시간을 의미합니다.
         transform.position += direction * speed * Time.deltaTime;
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if(scene.buildIndex != 0)
+        {
+            playerCamera.gameObject.SetActive(true);
+        }
+        else
+        {
+            playerCamera.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
