@@ -361,6 +361,8 @@
 "Assets/Animator/Scripts/LifeCycle.cs"
 "Assets/Animator/Scripts/Player.cs"
 "Assets/Move/Scripts/PlayerController.cs"
+"Assets/Sound/Script/Audio Manager.cs"
+"Assets/Sound/Script/Drone.cs"
 "Assets/UGUI/Scripts/MainMenu.cs"
 "Assets/UGUI/Scripts/TextManager.cs"
 -langversion:9.0

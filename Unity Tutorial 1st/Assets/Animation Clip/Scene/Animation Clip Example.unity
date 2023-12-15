@@ -926,8 +926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1605368576}
   animationClip:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 7ae884ee029c47d40a8ecca62c39fb09, type: 2}
+  - {fileID: 7400000, guid: bc5a5900d5e6fc34db6a4b405f45eaa0, type: 2}
 --- !u!1 &2072262540
 GameObject:
   m_ObjectHideFlags: 0
