@@ -360,6 +360,7 @@
 "Assets/Animator/Scripts/DataManager.cs"
 "Assets/Animator/Scripts/LifeCycle.cs"
 "Assets/Animator/Scripts/Player.cs"
+"Assets/Instantiate/Scripts/SpawnManager.cs"
 "Assets/Move/Scripts/PlayerController.cs"
 "Assets/Sound/Script/Audio Manager.cs"
 "Assets/Sound/Script/Drone.cs"
